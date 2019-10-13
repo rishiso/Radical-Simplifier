@@ -2,6 +2,7 @@ import math
 import time
 start_time = time.time()
 
+#r = radicand
 def simplify(r):
     num = int(math.sqrt(r))
     while num > 0:
